@@ -9,3 +9,7 @@ class Task {
    this.priority = priorityParameter;
   }
 }
+
+var tasks: Task[] = [];
+tasks.push(new Task('take out the trash', 'medium'));
+console.log(tasks);
